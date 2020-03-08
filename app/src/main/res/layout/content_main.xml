@@ -9,7 +9,7 @@
     tools:showIn="@layout/activity_main">
 
 
-    <SeekBar android:layout_height="wrap_content" android:layout_width="match_parent" android:indeterminate="false"  android:layout_alignParentTop="true" android:id="@+id/timesTableSeekBar"/>
+    <SeekBar android:layout_height="match_content" android:layout_width="match_parent" android:indeterminate="false"  android:layout_alignParentTop="true" android:id="@+id/timesTableSeekBar"/>
 
     <ListView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/timesTableListView" android:layout_below="@+id/timesTableSeekBar"/>
 
